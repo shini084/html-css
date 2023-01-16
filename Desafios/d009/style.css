@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+:root{
+    --cor0: #8F0E1B;
+    --cor1: #DB5865;
+    --cor2: #DBD400;
+    --cor3: #42A8DB;
+    --cor4: #005F8F;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: linear-gradient(to left, var(--cor4), var(--cor3));
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-image: linear-gradient(to top, var(--cor0), var(--cor1));
+    padding: 50px 0px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+}
+header h1{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+main{
+    background-color: white;
+    max-width: 1200px;
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+    padding: 0px 0px 10px 0px;
+}
+
+main.paginas-com-videos{
+    padding-top: 10px;
+}
+
+main ul{
+    columns: 2;
+    list-style: none;
+    list-style-type: none;
+    column-gap: 0px;
+}
+
+a.img-left{
+    display: block;
+    padding: 0px 5px 0px 10px;
+}
+
+a.img-right{
+    display: block;
+    padding: 0px 10px 0px 5px;
+}
+
+img{
+    border-radius: 10px;
+}
+
+ul img{
+    display: block;
+    width: 100%;
+    
+}
+
+ul p{
+    display: block;
+    text-decoration: none;
+
+    font-weight: bold;
+    padding: 10px 0px;
+    font-size: 2em;
+    text-align: center;
+    height: 2em;
+    margin: 0px 0px 5px 0px;
+}
+
+ul a{
+    text-decoration: none;
+    color: #8F0E1B;
+}
+
+ul a:hover{
+    color: var(--cor1);
+}
+
+picture{
+    margin: auto;
+}
+
+aside p{
+    text-align: center;
+    color: var(--cor0);
+    font-size: 1.5em;
+}
+
+aside a{
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor2);
+}
+
+p.seta{
+    height: 64px;
+    width: 64px;
+    margin: auto;
+}
+
+div.video{
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+    margin: 0px 10px 30px 10px;
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+   
+}
+
+div.video > video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+   
+}
+
+footer{
+    background-color: var(--cor0);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin: 30px 0px 0px 0px;
+    padding: 10px;
+}
+
+footer a{
+    color: var(--cor2);
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: var(--cor1)
+}

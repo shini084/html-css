@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: lightsalmon;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited{
+            text-decoration: underline;
+            color: red;
+        }
+
+        a:hover{
+            color: darkred;
+        }
+        
+        a:active{
+            color: yellow;
+        }
+
+        .especial::after{
+            content: ' <-';
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+        }
+
+        .especial::before{
+            content: '-> ';
+            color: black;
+            font-weight: bold;
+        }
+
+        .especial{
+            background-color: lightskyblue;
+            border-radius: 3px;
+            color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>Para ver a Aqua <a href="https://img3.gelbooru.com//samples/b5/b0/sample_b5b01dab886fb46318c843bd0aa821a0.jpg" target="_blank" rel="external">click aqui</a></li>
+        <li>Para ver a Roxy <a class="especial" href="https://img3.gelbooru.com//samples/a7/69/sample_a769176c4bf38ed5e3cc1a7744c48df2.jpg" target="_blank" rel="external">click aqui</a></li>
+        <li>Para ver a Perona <a href="https://img3.gelbooru.com//samples/77/83/sample_7783992b1bada25d91a888c7dc95db1b.jpg" target="_blank" rel="external">click aqui</a></li>
+    </ul>
+</body>
+</html>
