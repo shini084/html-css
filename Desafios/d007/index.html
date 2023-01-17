@@ -6,16 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/megalofobia256x144.jpg" type="image/x-icon">
     <title>Imagem flexível</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Imagem flexível</h1>
     <p>você está vendo a imagem completa? experimente ampliar o tamnho da sua janela para aproveitar melhor a experiência</p>
-    <picture>
-        <source media="(max-width: 525px)" srcset="imagens/megalofobia256x144.jpg" type="image/jpg">
-        <source media="(max-width: 800px)" srcset="imagens/megalofobia512x288.jpg" type="image/jpg">
-        <source media="(max-width: 1050px)" srcset="imagens/megalofobia768x432.jpg" type="image/jpg">
-        <source media="(max-width: 1300px)" srcset="imagens/megalofobia1024x576.jpg" type="image/jpg">
-        <img src="imagens/megalofobia1920x1080.jpg" alt="full">
-    </picture>
+    <p>
+        <picture>
+            <source media="(max-width: 500px)" srcset="imagens/lion-256x171.jpg" type="image/jpg">
+            <source media="(max-width: 770px)" srcset="imagens/lion-512x341.jpg" type="image/jpg">
+            <source media="(max-width: 1050px)" srcset="imagens/lion-768x512.jpg" type="image/jpg">
+            <img src="imagens/lion-1024x638.jpg" alt="full">
+        </picture>
+    </p>
 </body>
 </html>
