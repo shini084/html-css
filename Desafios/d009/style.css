@@ -45,7 +45,7 @@ main.paginas-com-videos{
 }
 
 main ul{
-    columns: 2;
+    columns: 3;
     list-style: none;
     list-style-type: none;
     column-gap: 0px;
@@ -65,18 +65,14 @@ main ul{
     overflow: hidden;
 }
 
-a.img-left{
+a.img-link{
     display: block;
-    padding: 0px 5px 0px 10px;
-}
-
-a.img-right{
-    display: block;
-    padding: 0px 10px 0px 5px;
+    padding: 0px 10px;
 }
 
 img{
     border-radius: 10px;
+    
 }
 
 ul img{
